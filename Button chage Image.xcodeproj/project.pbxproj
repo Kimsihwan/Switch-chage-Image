@@ -12,6 +12,8 @@
 		14E241522085A22F00DF3CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E241502085A22F00DF3CBF /* Main.storyboard */; };
 		14E241542085A22F00DF3CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E241532085A22F00DF3CBF /* Assets.xcassets */; };
 		14E241572085A22F00DF3CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E241552085A22F00DF3CBF /* LaunchScreen.storyboard */; };
+		14E241612085A33E00DF3CBF /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14E2415F2085A33E00DF3CBF /* 11.jpg */; };
+		14E241622085A33E00DF3CBF /* 44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14E241602085A33E00DF3CBF /* 44.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		14E241532085A22F00DF3CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14E241562085A22F00DF3CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E241582085A22F00DF3CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E2415F2085A33E00DF3CBF /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		14E241602085A33E00DF3CBF /* 44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		14E2414B2085A22F00DF3CBF /* Button chage Image */ = {
 			isa = PBXGroup;
 			children = (
+				14E2415E2085A29700DF3CBF /* image */,
 				14E2414C2085A22F00DF3CBF /* AppDelegate.swift */,
 				14E2414E2085A22F00DF3CBF /* ViewController.swift */,
 				14E241502085A22F00DF3CBF /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				14E241582085A22F00DF3CBF /* Info.plist */,
 			);
 			path = "Button chage Image";
+			sourceTree = "<group>";
+		};
+		14E2415E2085A29700DF3CBF /* image */ = {
+			isa = PBXGroup;
+			children = (
+				14E2415F2085A33E00DF3CBF /* 11.jpg */,
+				14E241602085A33E00DF3CBF /* 44.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E241622085A33E00DF3CBF /* 44.jpg in Resources */,
 				14E241572085A22F00DF3CBF /* LaunchScreen.storyboard in Resources */,
 				14E241542085A22F00DF3CBF /* Assets.xcassets in Resources */,
 				14E241522085A22F00DF3CBF /* Main.storyboard in Resources */,
+				14E241612085A33E00DF3CBF /* 11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

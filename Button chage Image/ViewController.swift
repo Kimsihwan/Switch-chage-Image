@@ -9,17 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var st: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        image.image = UIImage(named: "11.jpg")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func stC(_ sender: Any) {
+        if st.isOn == true {
+            image.image = UIImage(named: "11.jpg")
+        } else{
+             image.image = UIImage(named: "44.jpg")
+        }
+        
+        
     }
-
+    
 
 }
 
